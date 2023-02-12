@@ -1,0 +1,314 @@
+/* <Mobile*/
+@media (min-width: 375px) and (max-width: 740px) {
+ 
+  .header
+  {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    height: 80px;
+  }
+  .nav-main { 
+  margin-top: 0;
+  }
+  
+  .nav-h1 {
+    color: #b62501;
+    font-family: iCielBCPortico; 
+   
+  }
+  .nav-h1 span
+  {
+    font-size: 50px;
+    margin: auto;
+    line-height: 80px;
+  }
+  .nav-h1 h1 {
+    margin: auto;
+    text-align: center;
+    max-width: 210px;
+    font-size: 25px;
+   }
+  .nav-item {
+    display: none;
+    height: 87px;
+    width: 375px;
+    background-image: unset;
+  }
+  .nav-item ul {
+    /* margin-top: 1rem; */
+    display: block;
+    height: 60px;
+  }
+  .nav-item li {
+    position: relative;
+    list-style: none;
+    font-size: 8px;
+    margin: auto 17px;
+    color: #f0d89e;
+  }
+
+  .layout-phone
+  {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.98);
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 1;
+  }
+  @keyframes add-layout-p {
+    from {    height: 0%;    }
+    to {    height: 100%;
+    }
+  }
+  @keyframes re-layout-p {
+    from {    height: 100%;  opacity: 0.7;  }
+    to {    height: 0%;opacity: 0;
+    }
+  }
+  .p-b-h-list
+  {
+    width: 98%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .p-h-list
+  {
+    color: #fff;
+  }
+  .p-h-list li
+  {
+    border-bottom: 1px solid #989898;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  .p-h-list li a
+  {
+    color: #fff;
+    text-decoration: none;
+ 
+  }
+  /* -----baner 1------- */
+  .banner
+  {
+    padding-top: 80px;
+    width: 100%;
+    height: 100%;
+  }
+  .banner img{
+  width: 100%;
+  }
+  .block-main{height: unset}
+  /*Introduce*/
+  .i-desc-text h1
+  {
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+   font-size: 22px;
+  }
+  .i-desc-text h1::before 
+  {
+    content: "Welcome to";
+  background-color: unset;
+  height: 116px;
+  width: 215px;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;}
+
+  .i-text {width: 100%;}
+  .i-bl-text button{margin: 20px auto;}
+  .i-bl-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px;
+  }
+  .i-bl-img-text {
+    height: 100%;
+  }
+  /* --------Menu--------------- */
+  .menu{height: 650px;display: block;}
+  .mn-button{height: 200px;}
+  .mn-litem p{font-size: 12px; text-align: center;}
+  .mn-litem img{width: 110px;margin: 0px 30px;height: 77px;}
+  .b-button{display: flex;}
+  .b-button button{margin: auto;}
+/*From dang ky*/
+.information{
+display: block;
+height: 1570px;
+width: 100%;}
+.form-order
+{
+width: 100%;
+height: 500px;
+}
+.i-bl-form{
+  margin-top: 30px;
+  display: block;
+  width: 100%;
+}
+.i-bl-form-n
+{
+  margin: unset;
+}
+.form-title {
+  margin: auto;
+  height: 5%;
+  width: 100%;
+}
+.form-title h1 {
+  color: #b62501;
+  font-size: 18px;
+  font-family: iCielBCPortico;
+  text-align: center;
+}
+.form-title p {
+  font-size: 10px;
+}
+.form-data {
+  height: 80%;
+  width: 100%;
+  font-family: Roboto_light;
+  font-weight: 800;
+  font-size: 12px;
+}
+.form-data p {
+  line-height: 40px;
+}
+.form-data input {
+  font-size: 10px;
+  background-color: unset;
+  border: unset;
+}
+.i-bl-form button {
+  background-color: #b62501;
+  border-radius: 50px;
+  padding: 10px 20px;
+  color: #fff;
+  border: unset;
+}
+#show-all-item
+#show-all-item p{text-align: center;}
+
+/* ------NEWS_________________ */
+.n-item img:nth-child(1)
+{
+  width: 100%;border-radius: 0px 0px 0px 0px;
+}
+.n-item:nth-child(2) img
+{
+  display:none;
+}.n-item:nth-child(3) img
+{
+  display: none;
+}
+.n-item-title {
+  padding: 3px 0px;
+  font-size: 14px;
+}
+.n-item-content {
+ font-size: 14px;
+  padding: 7px 0px;
+}
+.n-item button {
+  font-family: Roboto;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+
+
+/* -------------Footer-------------- */
+.footer {
+  height: 600px;
+  background-image: unset;
+  background-color: #b62501;
+  margin-top: 0px;
+}
+
+.f-block {
+  margin: 30px 12px ;
+  max-width: 350px;
+  color: #fff;
+  display: block;
+  height: 210px;
+}
+
+.h3-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 15px;
+}
+.f-text {
+  font-family: Roboto_Light;
+  margin:0px 10px;
+  font-size: 12px;
+}
+.f-decription {
+  text-align: center ;
+  color: #fff;
+  font-family: Roboto_Light;
+}
+.copyright
+{
+  margin-top: 0;
+}
+.local {
+  height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* display-none---------------- */
+.nav-phone,.slideshow-container,.i-te-img,.banner-sub {
+  display: none;
+}
+
+  .dis-pc{display:block}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

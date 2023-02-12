@@ -1,0 +1,46 @@
+{
+  "listItem": [
+    {
+      "id": 1,
+      "name": "Trứng",
+      "img": "/img/Component 7.png",
+      "coin": 200000
+    },
+    {
+      "id": 2,
+      "name": "Trứng",
+      "img": "/img/Component 7.png",
+      "coin": 200000
+    },
+    {
+      "id": 3,
+      "name": "Cá",
+      "img": "/img/Component 7.png",
+      "coin": 200000
+    }, {
+      "id": 4,
+      "name": "Trứng",
+      "img": "/img/Component 7.png",
+      "coin": 200000
+    }, {
+      "id": 5,
+      "name": "Trứng",
+      "img": "/img/Component 7.png",
+      "coin": 200000
+    }, {
+      "id": 6,
+      "name": "Trứng",
+      "img": "/img/Component 7.png",
+      "coin": 200000
+    }, {
+      "id": 7,
+      "name": "Trứng",
+      "img": "/img/Component 7.png",
+      "coin": 200000
+    }
+    
+  ],
+  "guestOrder": [
+    
+  ]
+}
