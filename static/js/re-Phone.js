@@ -21,6 +21,10 @@ function toggleLayout(){
        
         }
 }
+function handleWheelNews()
+{
+    document.querySelector('.f-block-layout1').onwheel=()=>{console.log(99999)}
 
+}
 
 

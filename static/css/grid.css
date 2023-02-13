@@ -10,7 +10,7 @@
    
 }
 .text-c{text-align: center;}
-.bg-static{background-image: url(/img/bg_1.png);}
+.bg-static{}
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -18,13 +18,14 @@
     margin-right: -4px; */
 }
 
-.height-part{height: 50%;}
-.width-part{width: 50%;}
 .height-demo{height: 300px;}
 .row.no-gutters {
     margin-left: 0;
     margin-right: 0;
 }
+/**/
+.height-part{height: 50%;}
+.width-part{width: 50%;}
 .height-full{height: 100%;}
 .width-full{width: 100%;}
 

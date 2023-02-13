@@ -1,13 +1,43 @@
 // Client to client
 var foodAPI = [
-  { id: 1, img: "/img/Component 7.png", name: "Cơm niêu hải sản", coin: 300000 },
-  { id: 2, img: "/img/Component 7.png", name: "Thịt nướng úp niêu đất", coin: 900000 },
+  {
+    id: 1,
+    img: "/img/Component 7.png",
+    name: "Cơm niêu hải sản",
+    coin: 300000,
+  },
+  {
+    id: 2,
+    img: "/img/Component 7.png",
+    name: "Thịt nướng úp niêu đất",
+    coin: 900000,
+  },
   { id: 3, img: "/img/Component 7.png", name: "Cơm niêu xá xíu", coin: 20000 },
-  { id: 4, img: "/img/Component 7.png", name: "Cơm niêu việt với cá sống", coin: 20000 },
-  { id: 5, img: "/img/Component 7.png", name: "Cá Thoèn kho niêu đất", coin: 20000 },
-  { id: 6, img: "/img/Component 7.png", name: "Cá hố kho niêu đất", coin: 25000 },
+  {
+    id: 4,
+    img: "/img/Component 7.png",
+    name: "Cơm niêu việt với cá sống",
+    coin: 20000,
+  },
+  {
+    id: 5,
+    img: "/img/Component 7.png",
+    name: "Cá Thoèn kho niêu đất",
+    coin: 20000,
+  },
+  {
+    id: 6,
+    img: "/img/Component 7.png",
+    name: "Cá hố kho niêu đất",
+    coin: 25000,
+  },
   { id: 7, img: "/img/Component 7.png", name: "Gà Ô Cốt", coin: 23000 },
-  { id: 8, img: "/img/Component 7.png", name: "Thịt đông cơm niêu", coin: 30000 },
+  {
+    id: 8,
+    img: "/img/Component 7.png",
+    name: "Thịt đông cơm niêu",
+    coin: 30000,
+  },
 ];
 
 startMenu(foodAPI);
@@ -166,7 +196,7 @@ function showList() {
   let display = document.getElementById("show");
   let displaySetting = display.style.display;
   if (displaySetting == "block") {
-    display.style.animation = "add-layout-p 1s";
+    display.style.animation = "closeList   1s";
     setTimeout(function () {
       display.style.display = "none";
     }, 800);
@@ -233,7 +263,7 @@ function formInput() {
   input.forEach((e) => {
     console.log(
       (e.placeholder =
-        ".......................................................................................................................................")
+        ".............................................................................................................................................................................................................")
     );
   });
 }
