@@ -1,11 +1,3 @@
-onScreenPhone()
-function onScreenPhone()
-{
-}
-
-
-
-
 toggleLayout()
 function toggleLayout(){
     document.querySelector('.ti-menu').onclick=()=>{
@@ -23,7 +15,7 @@ function toggleLayout(){
 }
 function handleWheelNews()
 {
-    document.querySelector('.f-block-layout1').onwheel=()=>{console.log(99999)}
+  
 
 }
 
