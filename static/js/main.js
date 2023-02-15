@@ -2,39 +2,39 @@
 var foodAPI = [
   {
     id: 1,
-    img: "/img/Component 7.png",
-    name: "Cơm niêu hải sản",
-    coin: 300000,
+    img: "/img/012.Thịt-Luộc-Cà-Pháo.jpg",
+    name: "Thịt luộc cà pháo",
+    coin: 55000,
   },
   {
     id: 2,
-    img: "/img/Component 7.png",
+    img: "/img/Rectangle 31.png",
     name: "Thịt nướng úp niêu đất",
     coin: 900000,
   },
-  { id: 3, img: "/img/Component 7.png", name: "Cơm niêu xá xíu", coin: 20000 },
+  { id: 3, img: "/img/Rectangle 310.png", name: "Cơm niêu xá xíu", coin: 20000 },
   {
     id: 4,
-    img: "/img/Component 7.png",
+    img: "/img/Rectangle 32.png",
     name: "Cơm niêu việt với cá sống",
     coin: 20000,
   },
   {
     id: 5,
-    img: "/img/Component 7.png",
+    img: "/img/Rectangle 3122222.png",
     name: "Cá Thoèn kho niêu đất",
     coin: 20000,
   },
   {
     id: 6,
-    img: "/img/Component 7.png",
+    img: "/img/23432532532.jpg",
     name: "Cá hố kho niêu đất",
     coin: 25000,
   },
   { id: 7, img: "/img/Component 7.png", name: "Gà Ô Cốt", coin: 23000 },
   {
     id: 8,
-    img: "/img/Component 7.png",
+    img: "/img/Rectangle 3112134.png",
     name: "Thịt đông cơm niêu",
     coin: 30000,
   },
@@ -65,9 +65,13 @@ function startMenu(value) {
     };
   }
   i.forEach(function (value, index) {
-    arr += `<div class="mn-litem mxy-auto-m "><img src="${
+    arr += `<div class="mn-litem mxy-auto-m ">
+    <div class="mn-block-img">
+    <img src="${
       value.img
     }" alt="" srcset="">
+    </div>
+    
   <figcaption class="text-c order">
       <p class="nm-item-text">${value.name}</p>
       <div class="item-price"><p> Giá: ${value.coin.toLocaleString(

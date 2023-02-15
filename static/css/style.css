@@ -232,6 +232,20 @@
   line-height: 90px;
   font-size: 50px;
 }
+.mn-block-img
+{
+display: flex;
+width:370px;height: 260px;
+background-image: url(/img/Rectangle\ 28.png);
+background-size: cover; 
+background-repeat: no-repeat;}
+.mn-litem img{
+  height: 70%; width: 85%;
+  margin: auto;
+  border-radius: 5px;
+}
+
+
 
 .nm-item-text {
   padding: 4px 0px;

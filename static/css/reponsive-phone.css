@@ -1,5 +1,7 @@
 /* <Mobile*/
 @media (min-width: 375px) and (max-width: 740px) {
+  html{font-size: 16px;}
+  
   .main{background-image: url(/img/background-phone.png);}
   .header {
     position: fixed;
@@ -7,6 +9,10 @@
     right: 0;
     z-index: 2;
     height: 60px;
+    /* -webkit-box-shadow: 0 4px 6px -6px #222; */
+  /* -moz-box-shadow: 0 4px 6px -6px #222; */
+  box-shadow: 0 4px 10px -6px #222;
+   
   }
   .nav-main {
     margin-top: 0;
@@ -167,7 +173,8 @@
   /* --------Menu--------------- */
   .menu {
     margin-top: 10px;
-    height: 540px;
+    height: 100%;
+    max-height: 620px;
     display: block;
   }
   .mn-button {
@@ -182,6 +189,21 @@
     margin: 0px 30px;
     height: 77px;
   }
+
+  .mn-block-img
+  {
+  display: flex;
+  width:160px;height: 110px;
+  background-image: url(/img/Rectangle\ 28.png);
+  background-size: cover; 
+  background-repeat: no-repeat;}
+  .mn-litem img{
+    height: 70%; width: 85%;
+    margin: auto;
+    border-radius: 5px;
+  }
+
+
   .b-button {
     display: flex;
   }
@@ -190,11 +212,13 @@
   }
   /*-----------------From dang ky---------------------*/
   .information {
-    margin-top: 5px;
+    margin-top: 15px;
     background-image: unset;
     display: block;
-    height: 1080px;
+    /* height: 1200px; */
+   
     width: 100%;
+    
   }
   .form-order {
     width: 100%;
@@ -253,12 +277,14 @@
   }
 
   /* ---------------NEWS----------------- */
-  .news{height: 700px;width: 100%;margin-top: 5px;}
-  .news-title{height: 10%; width: 100%;}
+  .news{height: 100%;max-height: 950px;width: 100%;margin-top: 15px;}
+  .news-item{height: 90%; width: 100%;}
+  .news-title{height: 10%; width: 100%;padding-bottom: 15px;}
   .main-item-news
   {
     width: 100%;
-    height: 90%;
+   
+    max-height: 940px;
     display: flex;
     flex-direction: column;
     overflow-x:auto;
@@ -266,7 +292,6 @@
     scroll-snap-type: x mandatory;
   }
   /* --------Danh sách item của news----------- */
-  .news-item{height: 100%; width: 100%;}
   .main-item-news::-webkit-scrollbar {
     display: none;
   }
@@ -275,6 +300,7 @@
     height: 100%;
     width: 100%;
    scroll-snap-align: start;
+   
   }
   .n-item:nth-child(1) img ,
   .n-item:nth-child(2) img,
@@ -298,25 +324,39 @@
     font-size: 14px;
     padding: 7px 0px;
   }
-  .n-item button {
-    
+  .n-item-button {
+    display: flex;
     font-family: Roboto;
     font-size: 14px;
-    padding-bottom: 10px;
-    padding-left: 40px;
+    
+  }
+  .n-item-button button{
+  margin:  20px auto;
+  background-color: #b62501;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-family: Roboto_Light;
+
+  }
+  .n-item button::before {
+  
+    display: none;
+   
   }
 
   /* -------------Footer-------------- */
   .footer {
+    width: 100%;
     height: 600px;
     background-image: unset;
     background-color: #b62501;
     margin-top: 0px;
   }
-
-  .f-block {
+  .f-block-layout1{width: 100%;}
+  .f-block{
     margin: 30px 12px;
-    max-width: 350px;
+    width: 100%;
     color: #fff;
     display: block;
     height: 210px;
@@ -345,6 +385,7 @@
   }
 
   /* display-none---------------- */
+  p{text-align: justify;}
   .nav-phone,
   .slideshow-container,
   .i-te-img,
